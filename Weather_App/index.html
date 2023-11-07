@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Libre+Baskerville:wght@700&family=Oswald&family=Poppins:wght@300&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+    <div class="forecast-container">
+        <h1>WEATHER 4 YOU</h1>
+        <img src="Images/sun hug cloud.gif" alt="cloudy" class="cloud-image">
+    </div>
+    <div class="container">
+        <div class="searchbox">
+            <input type="text" placeholder="Enter Your City Name" id="searchinput">
+            <i class="fa-solid fa-magnifying-glass" id="searchbox"></i>
+        </div>
+
+
+        <div class="body" id="body_data">
+            <h2 id="temperature">25</h2>
+            <h3 id="city">Johannesburg</h3>
+        </div>
+
+        <div class="detail" id="detail">
+            <div class="col">
+                <i class="fa-solid fa-droplet"></i>
+                <div>
+                    <h5 id="humidity">50%</h5>
+                    <p>Humidity</p>
+                </div>
+            </div>
+            <div class="col">
+                <i class="fa-solid fa-wind"></i>
+                <div>
+                    <h5 id="windspeed">15 km/h</h5>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button class="popup-button">What to Wear</button>
+    <div class="popup-container">
+        <h2>Temperature Ranges</h2>
+        <div class="temperature-range">
+          <strong>Below 5°C:</strong>
+          <p>Warm jacket, scarf, and gloves</p>
+        </div>
+        <div class="temperature-range">
+          <strong>5-10°C:</strong>
+          <p>Winter coat, hat, and gloves</p>
+        </div>
+        <div class="temperature-range">
+          <strong>10-15°C:</strong>
+          <p>Light jacket, long sleeves</p>
+        </div>
+        <div class="temperature-range">
+          <strong>15-20°C:</strong>
+          <p>Sweater and jeans</p>
+        </div>
+        <div class="temperature-range">
+          <strong>20-25°C:</strong>
+          <p>T-shirt and shorts</p>
+        </div>
+      
+    </div>
+</div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
